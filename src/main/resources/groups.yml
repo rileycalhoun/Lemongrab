@@ -1,0 +1,16 @@
+
+groups:
+
+  Member:
+    options:
+      default: true
+    permissions:
+      - lemongrab.member
+
+  Moderator:
+    options:
+      prefix: '&aMod'
+    inheritance:
+      - Member
+    permissions:
+      - lemongrab.moderator
